@@ -449,7 +449,7 @@ msg_ok "虚拟机 ID： ${CL}${BL}$VMID${CL}."
 msg_info "从 iKOOLCORE 处获取最新的 OpenWRT 镜像文件（你可修改代码中的相关URL）..."
 
 response=$(curl -s https://dl.ikoolcore.com)
-URL="https://dl.ikoolcore.com/dl/OpenWrt%20Firmware/R2Max/QWRT-R25.01.23-x86-64-generic-squashfs-combined-efi.img.gz"
+URL="https://dl.ikoolcore.com/dl/OpenWrt%20Firmware/R2Max/QWRT-R26.03.23-x86-64-generic-squashfs-combined-efi.img.gz"
 
 sleep 2
 msg_ok "${CL}${BL}${URL}${CL}"
